@@ -23,10 +23,6 @@ spec:
     metadata:
       app: {{ .Values.container.name}}
     spec:
-      # securityContext:
-      #   fsGroup: {{ .Values.spec.securityContext.fsGroup}}
-      #   supplementalGroups:
-      #   - {{ .Values.spec.securityContext.supplementalGroups }}
       containers:
         - name: {{ .Values.container.name }} 
           image: {{ .Values.image }}
