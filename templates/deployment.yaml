@@ -23,7 +23,7 @@ spec:
   template:
     metadata:
       labels:
-        app: {{ .Values.container.name }}
+        app: {{ .Values.container.name }}  # ✅ Must match selector.matchLabels
     spec:
       containers:
         - name: {{ .Values.container.name }}
