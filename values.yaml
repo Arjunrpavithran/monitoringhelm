@@ -7,11 +7,6 @@ resources:
     memory: 750Mi
 container:
   name: grafana
-    #spec:
-    #  securityContext:
-    #    fsGroup: 472
-    #    supplementalGroups:
-    #     - 0
 image: grafana/grafana-enterprise
 imagePullPolicy: IfNotPresent
 ports:
