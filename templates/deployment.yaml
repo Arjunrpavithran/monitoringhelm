@@ -4,7 +4,7 @@ metadata:
   name: {{ "grafana-pvc.fullname" }}
 spec:
   accessModes:
-    {{- toYaml .Values.accessModes | nindent 4 }}
+    - {{toYaml .Values.accessModes | nindent 4 }}
   resources:
     requests:
       storage: {{ .Values.resources.requests.storage }}
@@ -23,10 +23,10 @@ spec:
     metadata:
       app: {{ .Values.container.name}}
     spec:
-      securityContext:
-        fsGroup: {{ .Values.spec.securityContext.fsGroup}}
-        supplementalGroups:
-        - {{ .Values.spec.securityContext.supplementalGroups }}
+      # securityContext:
+      #   fsGroup: {{ .Values.spec.securityContext.fsGroup}}
+      #   supplementalGroups:
+      #   - {{ .Values.spec.securityContext.supplementalGroups }}
       containers:
         - name: {{ .Values.container.name }} 
           image: {{ .Values.image }}
