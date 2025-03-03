@@ -2,10 +2,10 @@ apiVersion: v1
 entries:
   monitoring:
   - apiVersion: v2
-    created: "2025-02-28T11:58:03.725748202Z"
-    digest: d8f83eda1c8bcc7811fcefd04707f00c68059aa49ab2ef57cf702c695d06e926
+    created: "2025-03-03T09:57:05.678218142Z"
+    digest: 2521cc497ee1557b7e5f336982717587c30147e7330ccb91cfe6b3965668b6f9
     name: monitoring
     urls:
     - charts/monitoring-1.0.0.tgz
     version: 1.0.0
-generated: "2025-02-28T11:58:03.722290165Z"
+generated: "2025-03-03T09:57:05.656009656Z"
