@@ -1,7 +1,11 @@
+apiVersion: v1
 entries:
   monitoring:
-    - name: monitoring
-      version: 1.0.0
-      urls:
-        - https://arjunrpavithran.github.io/monitoringhelm/monitoring-1.0.0.tgz
-
+  - apiVersion: v2
+    created: "2025-03-03T10:33:37.965251456Z"
+    digest: 49b24b29c1c2f8493332990a1cbb6367342d51b2214df1854342b017478efced
+    name: monitoring
+    urls:
+    - charts/monitoring-1.0.0.tgz
+    version: 1.0.0
+generated: "2025-03-03T10:33:37.953882435Z"
