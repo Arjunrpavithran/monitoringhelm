@@ -1,3 +1,7 @@
-apiVersion: v1
-entries: {}
-generated: "2025-03-03T10:17:51.522141179Z"
+entries:
+  monitoring:
+    - name: monitoring
+      version: 1.0.0
+      urls:
+        - https://arjunrpavithran.github.io/monitoringhelm/monitoring-1.0.0.tgz
+
